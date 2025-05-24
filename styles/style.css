@@ -155,3 +155,63 @@
 .comingSoon .content .newYear p {
   margin: 20px 0px;
 }
+.functional {
+  display: flex;
+  justify-content: center;
+}
+.functional .mainContent {
+  margin: 100px 0px;
+  text-align: center;
+}
+.functional .mainContent h2 {
+  font-family: Inter;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.functional .mainContent h1 {
+  font-family: Merriweather;
+  font-size: 60px;
+  margin: 30px 0px;
+}
+.functional .mainContent .holiday {
+  color: red;
+}
+.functional .mainContent p {
+  font-family: Inter;
+  font-size: 18px;
+  color: #4b4b4b;
+  width: 900px;
+}
+.portfolio .content {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.portfolio {
+  margin-top: 50px;
+}
+.portfolio .content h3 {
+  font-family: Inter;
+  color: red;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.portfolio .content h2 {
+  font-family: Merriweather;
+  margin: 10px 0px;
+  font-size: 32px;
+}
+.portfolio .content p {
+  width: 40%;
+  font-family: Inter;
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: #4b4b4b;
+}
+.portfolio .content .gallary {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}

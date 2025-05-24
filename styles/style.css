@@ -5,6 +5,15 @@
   outline: 0px;
   box-sizing: border-box;
 }
+.btn {
+  background-color: red;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 /* Hero Section design  */
 
 .hero {
@@ -50,4 +59,99 @@
 .off .mainSection h2 {
   font-size: 32px;
   margin-bottom: 40px;
+}
+.midNightParty {
+  background: linear-gradient(#070211dd, #6c6c6c4c), url(../images/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.midNightParty .content {
+  width: 80%;
+  margin: auto;
+  color: aliceblue;
+}
+.midNightParty .content h1 {
+  font-family: Merriweather;
+  font-size: 90px;
+}
+.midNightParty .content p {
+  font-size: 21px;
+  font-family: Inter;
+  width: 60%;
+  margin: 30px 0px;
+}
+.event {
+  background: linear-gradient(#ffd1d1, #ff000000);
+  height: 80vh;
+  font-family: Inter;
+  text-align: center;
+  overflow: hidden;
+}
+.event .content {
+  margin-top: 200px;
+}
+.event .content span {
+  color: red;
+}
+.event .content h2 {
+  font-weight: 500;
+  margin: 15px 0px;
+  display: block;
+}
+.event .content button {
+  margin-top: 60px !important;
+  display: inline-block;
+}
+.comingSoon {
+  width: 80%;
+  margin: auto;
+}
+.comingSoon .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.comingSoon .content .offer {
+  width: 500px;
+}
+.comingSoon .content .offer h3 {
+  color: red;
+  font-family: Inter;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 21px;
+}
+.comingSoon .content .offer h2 {
+  font-family: Merriweather;
+  font-size: 36px;
+  margin: 20px 0px;
+}
+.comingSoon .content .offer p,
+.comingSoon .content .newYear p {
+  font-family: Inter;
+  font-size: 16px;
+  color: rgb(99, 99, 99);
+}
+.comingSoon .content .celebration img {
+  border: 10px solid red;
+  border-radius: 100%;
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+}
+.comingSoon .content .newYear {
+  width: 500px;
+}
+.comingSoon .content .newYear h2 {
+  font-family: Inter;
+  color: red;
+  font-size: 30px;
+}
+.comingSoon .content .newYear p {
+  margin: 20px 0px;
 }

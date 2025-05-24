@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  box-sizing: border-box;
+}
+/* Hero Section design  */
+
+.hero {
+  background: linear-gradient(#070211dd, #6c6c6c4c),
+    url(../images/Banner\ Image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  color: aliceblue;
+  font-family: Merriweather;
+}
+.hero p {
+  font-size: 25px;
+}
+.hero h1 {
+  font-size: 90px;
+  text-align: center;
+  margin-top: 20px;
+}
+.off {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 100px 0px;
+  font-family: "inter";
+}
+.off .mainSection h1 {
+  font-size: 40px;
+  color: red;
+}
+.off .mainSection p {
+  font-size: 18px;
+  margin: 40px 0px 20px;
+  color: red;
+}
+.off .mainSection h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
